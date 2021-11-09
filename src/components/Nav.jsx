@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Menu, Typography, Avatar } from 'antd';
 import { Link } from 'react-router-dom';
 import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons';
-import icon from '../assets/images/cryptocurrency.png';
+import icon from '../assets/cryptocurrency.png';
 
 const Nav = () => {
     return (
@@ -31,4 +31,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default Nav;
