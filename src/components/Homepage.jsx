@@ -10,11 +10,10 @@ const { Title } = Typography; //destructuring the Typography.Title component
 const Homepage = () => {
     const { data, isFetching } = useGetCryptosQuery();
 
-    console.log(data);
-
     const globalStats = data?.data?.stats;
+    // console.log(globalStats);
 
-    if(isFetching) return "Loading data....";
+    if (isFetching) return "Loading data....";
 
     return (
         <>
