@@ -11,9 +11,10 @@ const { Text, Title } = Typography;
 const { Option } = Select;
 
 const News = ({ simplified }) => {
-    const [ newsCategory, setNewsCategory ] = useState('Cryptocurrency');
+    const [newsCategory, setNewsCategory] = useState('Cryptocurrency');
     const { data: cryptoNews } = useGetCryptoNewsQuery({ newsCategory, count: simplified ? 6 : 12 });
     // console.log(cryptoNews);
+
     const { data } = useGetCryptosQuery(100);
 
     if(!cryptoNews?.value) return "Loading data...";
@@ -27,16 +28,16 @@ const News = ({ simplified }) => {
                         className="select-news" 
                         placeholder="Select a Crypto" 
                         optionFilterProp="children" 
-                        onChange={(value) => setNewsCategory(value)}
-                        filterOption={(input, option) => option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0}
+                        onChange={ (value) => setNewsCategory(value) }
+                        filterOption={ (input, option) => option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0 }
                     >
                         <Option vlaue="Cryptocurrency">Cryptocurrency</Option>
-                        {data?.data?.coins.map((coin) => <Option value={coin.name}>{coin.name}</Option>)}
+                        { data?.data?.coins.map((coin) => <Option value={coin.name}>{coin.name}</Option>) }
                     </Select>
                 </Col>
 
             )}
-            {cryptoNews.value.map((news, i) => (
+            { cryptoNews.value.map((news, i) => (
                 <Col xs={24} sm={12} lg={8} key={i}>
                     <Card hoverable className="news-card">
                         <a href={news.url} target="_blank" rel="noreferrer">
@@ -45,9 +46,7 @@ const News = ({ simplified }) => {
                                 <img style={{ maxWidth: '200px', maxHeight: '100px' }} src={ news?.image?.thumbnail?.contentUrl || demoImage } alt="News" />
                             </div>
                             <p>
-                                {
-                                    news.description > 100 ?  `${news.description.subString(0, 100)}...` : news.description
-                                }
+                                { news.description > 100 ?  `${news.description.subString(0, 100)}...` : news.description }
                             </p>
                             <div className="provider-container">
                                 <div>
@@ -59,7 +58,7 @@ const News = ({ simplified }) => {
                         </a>
                     </Card>
                 </Col>
-            ))}
+            )) }
             
         </Row>
     )
