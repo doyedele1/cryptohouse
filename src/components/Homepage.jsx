@@ -6,7 +6,7 @@ import { useGetCryptosQuery } from '../services/cryptoApi';
 import Cryptocurrencies from './Cryptocurrencies';
 import News from './News';
 
-const { Title } = Typography; //destructuring the Typography.Title component
+const { Title } = Typography;
 
 const Homepage = () => {
     const { data, isFetching } = useGetCryptosQuery(10);
