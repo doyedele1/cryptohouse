@@ -23,8 +23,8 @@ a:hover {
 }
 
 .nav {
-    flex: 0.2;
     background-color: rgb(0, 21, 41);
+    flex: 0.2;
 }
 
 .main {
