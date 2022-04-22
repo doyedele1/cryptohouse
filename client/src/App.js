@@ -31,7 +31,7 @@ const App = () => (
                 <div className="footer">
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
                         Demilade Oyedele © 2022<br />
-                        All rights reserved
+                        All RIGHTS reserved
                     </Typography.Title>
                     <Space>
                         <Link to="/">Home</Link>
