@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cryptohouse/static/css/main.12c2659a.css",
+    "main.js": "/cryptohouse/static/js/main.186b908d.js",
+    "index.html": "/cryptohouse/index.html",
+    "main.12c2659a.css.map": "/cryptohouse/static/css/main.12c2659a.css.map",
+    "main.186b908d.js.map": "/cryptohouse/static/js/main.186b908d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12c2659a.css",
+    "static/js/main.186b908d.js"
+  ]
+}
