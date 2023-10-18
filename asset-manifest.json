@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/cryptohouse/static/css/main.ab8c1c22.chunk.css",
-    "main.js": "/cryptohouse/static/js/main.9dfa0e56.chunk.js",
-    "main.js.map": "/cryptohouse/static/js/main.9dfa0e56.chunk.js.map",
-    "runtime-main.js": "/cryptohouse/static/js/runtime-main.fc293c0a.js",
-    "runtime-main.js.map": "/cryptohouse/static/js/runtime-main.fc293c0a.js.map",
-    "static/css/2.4c00a264.chunk.css": "/cryptohouse/static/css/2.4c00a264.chunk.css",
-    "static/js/2.86af47b3.chunk.js": "/cryptohouse/static/js/2.86af47b3.chunk.js",
-    "static/js/2.86af47b3.chunk.js.map": "/cryptohouse/static/js/2.86af47b3.chunk.js.map",
+    "main.css": "/cryptohouse/static/css/main.bd284f70.chunk.css",
+    "main.js": "/cryptohouse/static/js/main.721ca5b0.chunk.js",
+    "main.js.map": "/cryptohouse/static/js/main.721ca5b0.chunk.js.map",
+    "runtime-main.js": "/cryptohouse/static/js/runtime-main.d49c25c0.js",
+    "runtime-main.js.map": "/cryptohouse/static/js/runtime-main.d49c25c0.js.map",
+    "static/css/2.cc91c9c6.chunk.css": "/cryptohouse/static/css/2.cc91c9c6.chunk.css",
+    "static/js/2.188516f8.chunk.js": "/cryptohouse/static/js/2.188516f8.chunk.js",
+    "static/js/2.188516f8.chunk.js.map": "/cryptohouse/static/js/2.188516f8.chunk.js.map",
     "index.html": "/cryptohouse/index.html",
-    "static/css/2.4c00a264.chunk.css.map": "/cryptohouse/static/css/2.4c00a264.chunk.css.map",
-    "static/css/main.ab8c1c22.chunk.css.map": "/cryptohouse/static/css/main.ab8c1c22.chunk.css.map",
-    "static/js/2.86af47b3.chunk.js.LICENSE.txt": "/cryptohouse/static/js/2.86af47b3.chunk.js.LICENSE.txt"
+    "precache-manifest.f6ba9ff8cd3a242b9e5c7b9266606e88.js": "/cryptohouse/precache-manifest.f6ba9ff8cd3a242b9e5c7b9266606e88.js",
+    "service-worker.js": "/cryptohouse/service-worker.js",
+    "static/css/2.cc91c9c6.chunk.css.map": "/cryptohouse/static/css/2.cc91c9c6.chunk.css.map",
+    "static/css/main.bd284f70.chunk.css.map": "/cryptohouse/static/css/main.bd284f70.chunk.css.map",
+    "static/js/2.188516f8.chunk.js.LICENSE.txt": "/cryptohouse/static/js/2.188516f8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc293c0a.js",
-    "static/css/2.4c00a264.chunk.css",
-    "static/js/2.86af47b3.chunk.js",
-    "static/css/main.ab8c1c22.chunk.css",
-    "static/js/main.9dfa0e56.chunk.js"
+    "static/js/runtime-main.d49c25c0.js",
+    "static/css/2.cc91c9c6.chunk.css",
+    "static/js/2.188516f8.chunk.js",
+    "static/css/main.bd284f70.chunk.css",
+    "static/js/main.721ca5b0.chunk.js"
   ]
 }
